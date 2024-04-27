@@ -1,0 +1,77 @@
+.cabecalho__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 32px;
+}
+
+.logo{
+    width: 145px;
+    height: 56px;
+  
+}
+
+.input__cabecalho{
+    width: 752px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.16);
+    border: none;
+    border-radius: 8px;
+    margin: 0 206px 0 167px;
+}
+
+.input__cabecalho:hover{
+    background: rgba(255, 255, 255, 0.24);
+}
+
+.input__cabecalho::placeholder{
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 14px; ;
+}
+
+.div__cabecalho__container{
+    color: #ffff;
+    display: flex;
+    align-items: center;
+  
+}
+
+.icon__foto{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.menuHamburguer {
+    display: none;
+}
+
+.lupaPesquisa{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .cabecalho__container{
+        display: flex;
+    }
+    .input__cabecalho{
+        display: none;
+    }
+
+    .lupaPesquisa{
+        display: flex;
+      
+    }
+    .menuHamburguer{
+        display: flex;
+    }
+    .icon__foto{
+        display: none;
+    }
+    .icon__nome{
+        display: none;
+    }
+    
+}

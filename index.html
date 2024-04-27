@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho__container"> <!-- Inicio Cabecalho-->
+        <img class="logo" src="assets/logo-plataforma.png" alt="">
+        <input class="input__cabecalho" type="text" placeholder="Busque por algo">
+        <div class="div__cabecalho__container">
+            <span class="lupaPesquisa"><img src="assets/lupaPesquisa.png" alt="" onclick="clickLupaPesquisa"></span>
+            <span class="menuHamburguer"><img src="assets/menuHamburguer.png" alt="" onclick="clickMenu"></span>
+            <img class="icon__foto" src="assets/fotoPerfil.png" alt="">
+            <p class="icon__nome">Vinicius</p>
+        </div>            
+    </header> <!--Fim Cabecalho-->
+    <main>
+        <nav class="nav__container"><!--Inicio Nav-->
+            <h2 class="escrita titulo">M E N U</h2>
+            <div class="div__nav__container">
+                <a class="div__link__nav" href="index.html">
+                    <div class="imagem__icon">
+                        <img src="assets/icon_code.svg" alt="">
+                    </div>
+                    <p class="escrita">Editor de código</p>
+                </a> 
+            </div>
+            <div class="div__nav__container">
+                <a class="div__link__nav div__link__nav__opacity" href="comunidade.html">
+                    <div class="imagem__icon">
+                        <img src="assets/Font Awesome Icon.svg" alt="">
+                    </div>    
+                    <p class="escrita" href="comunidade.html">Comunidade</p>
+                </a>
+            </div>        
+        </nav><!--Fim Nav-->
+        <section class="code__editor__container"><!--Inicio Code Editor-->
+                <div class="code__editor">
+                    <div class="div__input">
+                        <div class="container__button__code__editor">
+                            <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 1.svg" alt=""></button>
+                            <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 2.svg" alt=""></button>
+                            <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 3.svg" alt=""></button>
+                        </div>
+                        <textarea name="highlight" id="highlight" cols="30" rows="10" ></textarea> 
+                        </div>
+                    </div>
+                </div>
+                <button id="buttonHighlight" class="botao__code__editor">Visualizar com o highlight</button>
+        </section><!--Fim Code Editor-->
+        <div class="div__container__projeto"><!--Inicio Projetos-->
+            <label class="titulo" for="">S E U  P R O J E T O</label>
+            <input class="input__projeto" type="text" placeholder="Nome do projeto">
+            <input class="input__projeto input__projeto__descricao" type="text" placeholder="Descrição do seu projeto">
+            <br>
+            <label class="titulo" for="">P E R S O N A L I Z A Ç Ã O</label>
+            <select class="input__projeto select" name="codigo" id="codigo">
+                <option class="opcao" value="JavaSript">JavaSript</option>
+                <option class="opcao" value="Python">HTML</option>
+                <option class="opcao" value="Java">CSS</option>
+            </select>
+            <input class="color__picker" type="color">
+            <button class="botao__projeto" id="botaoSP">Salvar projeto</button>
+        </div><!--Fim Projetos-->
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</body>
+</html>

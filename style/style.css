@@ -1,0 +1,16 @@
+@import url("cabecalho.css");
+@import url("home.css");
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #051D3B;
+}
+

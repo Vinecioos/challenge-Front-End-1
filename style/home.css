@@ -225,7 +225,7 @@ textarea{
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 
     .nav__container{
         display: none;
@@ -233,10 +233,9 @@ textarea{
     main{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     .code__editor{
+        margin-right: 130px;
         width: 343px;
         height: 492px;
     }
@@ -250,20 +249,20 @@ textarea{
     }
 
     .botao__code__editor{
+        margin-right: 130px;
         width: 343px;
     }
+
 
     .div__container__projeto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 40px;
-        margin-left: 120px;
+        margin-left: 30px;
     }
-    .input__projeto{
-        width: 343px;
-    }
-
-    .color__picker{
-        width: 343px;
-    }
+    .input__projeto,
+    .color__picker,
     .botao__projeto{
         width: 343px;
     }

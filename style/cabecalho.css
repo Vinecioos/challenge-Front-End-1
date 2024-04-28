@@ -52,9 +52,10 @@
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .cabecalho__container{
         display: flex;
+        justify-content: space-between;
     }
     .input__cabecalho{
         display: none;
@@ -62,10 +63,13 @@
 
     .lupaPesquisa{
         display: flex;
+        margin-left: 120px;
+        margin-right: 22px;
       
     }
     .menuHamburguer{
         display: flex;
+     
     }
     .icon__foto{
         display: none;

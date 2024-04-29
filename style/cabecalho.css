@@ -63,12 +63,12 @@
 
     .lupaPesquisa{
         display: flex;
-        margin-left: 120px;
+        margin-left: 110px;
         margin-right: 22px;
       
     }
     .menuHamburguer{
-        display: flex;
+        display: block;
      
     }
     .icon__foto{

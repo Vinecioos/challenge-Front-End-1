@@ -14,14 +14,14 @@
         <img class="logo" src="assets/logo-plataforma.png" alt="">
         <input class="input__cabecalho" type="text" placeholder="Busque por algo">
         <div class="div__cabecalho__container">
-            <span class="lupaPesquisa"><img src="assets/lupaPesquisa.png" alt="" onclick="clickLupaPesquisa"></span>
-            <span class="menuHamburguer"><img src="assets/menuHamburguer.png" alt="" onclick="clickMenu"></span>
-            <img class="icon__foto" src="assets/fotoPerfil.png" alt="">
-            <p class="icon__nome">Vinicius</p>
+            <span class="lupaPesquisa"><img src="assets/lupaPesquisa.png" alt="Menu Pesquisa" onclick="clickLupaPesquisa()"></span>
+            <span class="menuHamburguer"><img src="assets/menuHamburguer.png" alt="Menu" onclick="clickMenu()"></span>
+            <img id="menuMobile" class="icon__foto" src="assets/fotoPerfil.png" alt="">
+            <p id="menuMobile" class="icon__nome">Vinicius</p>
         </div>            
     </header> <!--Fim Cabecalho-->
     <main>
-        <nav class="nav__container"><!--Inicio Nav-->
+        <nav id="menuMobile" class="nav__container"><!--Inicio Nav-->
             <h2 class="escrita titulo">M E N U</h2>
             <div class="div__nav__container">
                 <a class="div__link__nav" href="index.html">

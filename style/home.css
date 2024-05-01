@@ -2,17 +2,14 @@ main{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-
 }
-
 
 /*Inicio NAV */
 .nav__container{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-left: 32px;
-    
+    margin-left: 32px;    
 }
 
 .div__nav__container{
@@ -41,7 +38,6 @@ main{
     opacity: 1;
 }
 
-
 .imagem__icon{
     width: 48px;
     height: 48px;
@@ -51,7 +47,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-
 
 .titulo{
     font-weight: 400;
@@ -63,18 +58,16 @@ main{
     color: #ffff;
     text-decoration: none;
 }
-
-
 /*Fim NAV */
 
 /* Inicio Code Editor */
-
 .code__editor__container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .code__editor{
     width: 752px;
     height: 366px;
@@ -140,7 +133,6 @@ textarea{
 .botao__code__editor:focus{
     background: rgba(80, 129, 251, 0.24);
 }
-
 /* FIM Code Editor */
 
  /* Inicio Projeto */
@@ -161,7 +153,6 @@ textarea{
 
 .input__projeto:hover{
     background: rgba(255, 255, 255, 0.24);
-
 }
 
 .input__projeto::placeholder{
@@ -176,9 +167,11 @@ textarea{
     height: 80px;
     color: rgba(255, 255, 255, 0.64);
 }
+
 .select{
     color: rgba(255, 255, 255, 0.64);
 }
+
 .opcao{
     color: black;
 }
@@ -224,25 +217,27 @@ textarea{
     opacity: 64%;
 }
 
-
 @media screen and (max-width: 768px){
-
     .nav__container{
         display: none;
     }
+
     main{
         display: flex;
         flex-direction: column;
     }
+
     .code__editor{
         margin-right: 130px;
         width: 343px;
         height: 492px;
     }
+
     .div__input{
         width: 279px;
         height: 428px;
     }
+
     textarea{
         width: 247px;
         height: 360px;
@@ -253,7 +248,6 @@ textarea{
         width: 343px;
     }
 
-
     .div__container__projeto{
         display: flex;
         justify-content: center;
@@ -261,9 +255,11 @@ textarea{
         margin-top: 40px;
         margin-left: 30px;
     }
+
     .input__projeto,
     .color__picker,
     .botao__projeto{
         width: 343px;
     }
+    
 }

@@ -14,14 +14,41 @@
         <img class="logo" src="assets/logo-plataforma.png" alt="">
         <input class="input__cabecalho" type="text" placeholder="Busque por algo">
         <div class="div__cabecalho__container">
+            <img class="icon__foto" src="assets/fotoPerfil.png" alt="">
+            <p class="icon__nome">Vinicius</p>
+            
+              <!--Mobile-->
             <span class="lupaPesquisa"><img src="assets/lupaPesquisa.png" alt="Menu Pesquisa" onclick="clickLupaPesquisa()"></span>
-            <span class="menuHamburguer"><img src="assets/menuHamburguer.png" alt="Menu" onclick="clickMenu()"></span>
-            <img id="menuMobile" class="icon__foto" src="assets/fotoPerfil.png" alt="">
-            <p id="menuMobile" class="icon__nome">Vinicius</p>
-        </div>            
+            <span class="menuHamburguer"><img src="assets/menuHamburguer.png" alt="Menu" onclick="menuShow()"></span>          
+        </div> 
+        <div id="menuMobile" class="itens-menu-mobile">
+            <nav class="mobile__nav__container"><!--Inicio Nav Mobile-->
+                <div class="div__nav__container mobile__div__nav">
+                    <a class="div__link__nav" href="index.html">
+                        <div class="imagem__icon">
+                            <img src="assets/icon_code.svg" alt="">
+                        </div>
+                        <p class="escrita">Editor de código</p>
+                    </a> 
+                </div>
+                <div class="div__nav__container">
+                    <a class="div__link__nav div__link__nav__opacity" href="comunidade.html">
+                        <div class="imagem__icon">
+                            <img src="assets/Font Awesome Icon.svg" alt="">
+                        </div>    
+                        <p class="escrita" href="comunidade.html">Comunidade</p>
+                    </a>
+                </div>  
+                <hr>
+                <div class="div__cabecalho__container">
+                    <img class="icon__foto__mobile" src="assets/fotoPerfil.png" alt="">
+                    <p class="icon__nome__mobile">Vinicius</p>       
+                </div>       
+            </nav><!--Fim Na Mobile-->
+        </div><!--Fim menu Mobile-->   
     </header> <!--Fim Cabecalho-->
     <main>
-        <nav id="menuMobile" class="nav__container"><!--Inicio Nav-->
+        <nav class="nav__container"><!--Inicio Nav-->
             <h2 class="escrita titulo">M E N U</h2>
             <div class="div__nav__container">
                 <a class="div__link__nav" href="index.html">

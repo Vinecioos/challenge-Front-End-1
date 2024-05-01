@@ -44,11 +44,43 @@
     height: 32px;
 }
 
-.menuHamburguer {
+.itens-menu-mobile {
     display: none;
+    width: 245px;
+    height: 571px;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(45, 65, 91, 1);
+    border-radius: 8px;
+    
+  }
+
+hr{
+    width: 206px;
+    opacity: 0.08;
 }
 
-.lupaPesquisa{
+.mobile__nav__container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px;
+}
+
+.icon__foto__mobile{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+}
+
+.icon__nome__mobile{
+    padding-left: 7px;
+}
+
+.menuHamburguer,
+.lupaPesquisa {
     display: none;
 }
 
@@ -57,25 +89,24 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .lupaPesquisa{
+        display: block; 
+    }
+
+    .menuHamburguer{
+        display: block;
+        margin-left: 36px;
+    }
+
+    .icon__foto,
+    .icon__nome,
     .input__cabecalho{
         display: none;
     }
 
-    .lupaPesquisa{
-        display: flex;
-        margin-left: 110px;
-        margin-right: 22px;
-      
+    .itens-menu-mobile{
+        position: absolute;
+        margin: 40em 0 0 5.6em;
     }
-    .menuHamburguer{
-        display: block;
-     
-    }
-    .icon__foto{
-        display: none;
-    }
-    .icon__nome{
-        display: none;
-    }
-    
 }

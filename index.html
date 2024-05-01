@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/highlight.js/styles/stackoverflow-dark.min.css">
+    <title>AluraCjallenge1</title>
 </head>
 <body>
     <header class="cabecalho__container"> <!-- Inicio Cabecalho-->
@@ -74,11 +75,10 @@
                             <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 1.svg" alt=""></button>
                             <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 2.svg" alt=""></button>
                             <button class="code__editor__button"><img class="code__editor__imagem" src="assets/Ellipse 3.svg" alt=""></button>
-                        </div>
-                        <textarea name="highlight" id="highlight" cols="30" rows="10" ></textarea> 
+                            <pre><code class="preview JavaSript" contenteditable="true">const teste()</code></pre>
                         </div>
                     </div>
-                </div>
+                </div>    
                 <button id="buttonHighlight" class="botao__code__editor">Visualizar com o highlight</button>
         </section><!--Fim Code Editor-->
         <div class="div__container__projeto"><!--Inicio Projetos-->
@@ -98,5 +98,6 @@
     </main>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

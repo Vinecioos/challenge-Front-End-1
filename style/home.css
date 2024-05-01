@@ -80,7 +80,7 @@ main{
 .div__input{
     height: 302px;
     width: 688px;
-    background-color: rgba(20, 20, 20, 1);
+    background-color:#1c1b1b;
     margin: 32px;
     border-radius: 8px;
 }
@@ -90,22 +90,19 @@ main{
 }
 
 .code__editor__button{
-    background-color:  rgba(20, 20, 20, 1);
+    background-color:  #1c1b1b;
     border: none;    
 }
 
-textarea{
-    margin: 16px;
-    width: 656px;
-    height: 234px;
-    border: none;
+.preview{
     color: #ffff;
-    background-color: rgba(20, 20, 20, 0.24);
-    resize: none;
     font-family: "Roboto Mono", monospace;
     font-size: 14px;
     font-weight: 400;
     line-height: 18.46px;
+    margin-top: 24px;
+    width: 620px;
+    height: 200px;
 }
 
 .botao__code__editor{
